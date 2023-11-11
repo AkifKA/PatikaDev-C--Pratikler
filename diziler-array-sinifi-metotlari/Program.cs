@@ -81,6 +81,16 @@ class Program
         Array.Reverse(arr);
         foreach (var item in arr)
             Console.Write(item + " ");
+        Console.WriteLine();
+
+        //? Array Sınıfı Metotları HackerRank Challenge 4
+        Console.WriteLine("***** Array Sınıfı Metotları HackerRank Challenge 4 *****");
+        long[] array = { 1000000001, 1000000002, 1000000003, 1000000004, 1000000005 };
+        long sum2 = 0;
+        foreach (var num in array)
+            sum2 += num;
+        Console.WriteLine(sum2);
+
 
 
 
