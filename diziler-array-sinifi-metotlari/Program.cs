@@ -44,11 +44,44 @@ class Program
         foreach (var sayi in sayiDizisi)
             Console.WriteLine(sayi);
 
+        //? Array Sınıfı Metotları HackerRank Challenge 1
+        int[] candles = { 5, 5, 3, 1 };
+        int maxHeight = 0;
 
+        int maxHeightCount = 0;
 
+        foreach (int candle in candles)
+        {
 
+            if (candle > maxHeight)
+            {
+                maxHeight = candle;
+                maxHeightCount = 1;
+            }
 
+            else if (candle == maxHeight)
+            {
+                maxHeightCount++;
+            }
+        }
 
-
+        Console.WriteLine(maxHeightCount);
+        //? Array Sınıfı Metotları HackerRank Challenge 2
+        Console.WriteLine("***** Array Sınıfı Metotları HackerRank Challenge 2 *****");
+        int[] ar = { 5, 5, 3, 1 };
+        int sum = 0;
+        foreach (var num in ar)
+            sum += num;
+        Console.WriteLine(sum);
     }
 }
+
+
+
+
+
+
+
+
+
+
