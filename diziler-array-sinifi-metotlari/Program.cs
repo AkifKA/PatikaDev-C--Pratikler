@@ -45,6 +45,7 @@ class Program
             Console.WriteLine(sayi);
 
         //? Array Sınıfı Metotları HackerRank Challenge 1
+        Console.WriteLine("***** Array Sınıfı Metotları HackerRank Challenge *****");
         int[] candles = { 5, 5, 3, 1 };
         int maxHeight = 0;
 
@@ -73,6 +74,16 @@ class Program
         foreach (var num in ar)
             sum += num;
         Console.WriteLine(sum);
+
+        //? Array Sınıfı Metotları HackerRank Challenge 3
+        Console.WriteLine("***** Array Sınıfı Metotları HackerRank Challenge 3 *****");
+        int[] arr = { 1, 2, 3, 4, 5 };
+        Array.Reverse(arr);
+        foreach (var item in arr)
+            Console.Write(item + " ");
+
+
+
     }
 }
 
