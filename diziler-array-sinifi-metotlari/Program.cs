@@ -136,7 +136,7 @@ class Program
         //? Array Sınıfı Metotları HackerRank Challenge 6
         Console.WriteLine("***** Array Sınıfı Metotları HackerRank Challenge 6 *****");
 
-        int[] array2 = { 12222, 101, 22, 3, 99, 4, 6 }; // Örnek dizi
+        int[] array2 = { 12222, 101, 22, 3, 99, 4, 6, 65, 98, 111 }; // Örnek dizi
         int n = array2.Length;
         // Track number of elements swapped during a single array traversal
         int numberOfSwaps = 0;
@@ -144,8 +144,6 @@ class Program
 
         for (int i = 0; i < n; i++)
         {
-
-
             for (int j = 0; j < n - 1; j++)
             {
                 // Geçici "temp" oluşturup, dizi elemanlarını yer değiştiriyoruz
@@ -159,8 +157,7 @@ class Program
                 }
 
             }
-
-            // Dizi yer değiştirmeye gerek kalmadan sıralanıyorsa; 
+            //? Dizi yer değiştirmeye gerek kalmadan sıralanıyorsa; 
             if (numberOfSwaps == 0)
             {
                 break;
@@ -177,7 +174,6 @@ class Program
         Console.WriteLine("Array is shorted in {0} swaps", numberOfSwaps);
         Console.WriteLine("First Element is {0}", array2[0]);
         Console.WriteLine("Last Element is {0}", array2[n - 1]);
-
     }
 }
 
