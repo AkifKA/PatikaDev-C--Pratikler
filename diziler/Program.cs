@@ -69,6 +69,7 @@ class Program
         double zeroResult = (double)zero / n; ;
         double minusResult = (double)minus / n; ;
         double plusResult = (double)minus / n; ;
+        // Console.WriteLine(Math.Round(zeroResult, 6));
         Console.WriteLine($"{zeroResult:F6}");
         Console.WriteLine($"{minusResult:F6}");
         Console.WriteLine($"{plusResult:F6}");
