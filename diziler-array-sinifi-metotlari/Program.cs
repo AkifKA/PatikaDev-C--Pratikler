@@ -137,6 +137,11 @@ class Program
         Console.WriteLine("***** Array Sınıfı Metotları HackerRank Challenge 6 *****");
 
         int[] array2 = { 12222, 101, 22, 3, 99, 4, 6, 65, 98, 111 }; // Örnek dizi
+        Console.Write("Sıralanmamış Dizi:" + " ");
+        foreach (var item in array2)
+            Console.Write(item + " ");
+        Console.WriteLine();
+        //? Dizi eleman sayısını n'ye atıyoruz:
         int n = array2.Length;
         // Track number of elements swapped during a single array traversal
         int numberOfSwaps = 0;
