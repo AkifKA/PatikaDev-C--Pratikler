@@ -1,0 +1,14 @@
+D:\Patikadev\Pratikler\switch-case\bin\Debug\net7.0\switch-case.exe
+D:\Patikadev\Pratikler\switch-case\bin\Debug\net7.0\switch-case.deps.json
+D:\Patikadev\Pratikler\switch-case\bin\Debug\net7.0\switch-case.runtimeconfig.json
+D:\Patikadev\Pratikler\switch-case\bin\Debug\net7.0\switch-case.dll
+D:\Patikadev\Pratikler\switch-case\bin\Debug\net7.0\switch-case.pdb
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\switch-case.GeneratedMSBuildEditorConfig.editorconfig
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\switch-case.AssemblyInfoInputs.cache
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\switch-case.AssemblyInfo.cs
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\switch-case.csproj.CoreCompileInputs.cache
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\switch-case.dll
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\refint\switch-case.dll
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\switch-case.pdb
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\switch-case.genruntimeconfig.cache
+D:\Patikadev\Pratikler\switch-case\obj\Debug\net7.0\ref\switch-case.dll

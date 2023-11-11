@@ -1,0 +1,14 @@
+D:\Patikadev\Pratikler\donguler-while-foreach\bin\Debug\net7.0\donguler-while-foreach.exe
+D:\Patikadev\Pratikler\donguler-while-foreach\bin\Debug\net7.0\donguler-while-foreach.deps.json
+D:\Patikadev\Pratikler\donguler-while-foreach\bin\Debug\net7.0\donguler-while-foreach.runtimeconfig.json
+D:\Patikadev\Pratikler\donguler-while-foreach\bin\Debug\net7.0\donguler-while-foreach.dll
+D:\Patikadev\Pratikler\donguler-while-foreach\bin\Debug\net7.0\donguler-while-foreach.pdb
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\donguler-while-foreach.GeneratedMSBuildEditorConfig.editorconfig
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\donguler-while-foreach.AssemblyInfoInputs.cache
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\donguler-while-foreach.AssemblyInfo.cs
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\donguler-while-foreach.csproj.CoreCompileInputs.cache
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\donguler-while-foreach.dll
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\refint\donguler-while-foreach.dll
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\donguler-while-foreach.pdb
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\donguler-while-foreach.genruntimeconfig.cache
+D:\Patikadev\Pratikler\donguler-while-foreach\obj\Debug\net7.0\ref\donguler-while-foreach.dll
