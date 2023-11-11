@@ -1,4 +1,7 @@
-﻿namespace diziler_array_sinifi_metotlari;
+﻿using System.Collections;
+using System.Runtime.InteropServices;
+
+namespace diziler_array_sinifi_metotlari;
 
 class Program
 {
@@ -90,6 +93,46 @@ class Program
         foreach (var num in array)
             sum2 += num;
         Console.WriteLine(sum2);
+
+        //? Array Sınıfı Metotları HackerRank Challenge 5
+        Console.WriteLine("***** Array Sınıfı Metotları HackerRank Challenge 5 *****");
+        // The task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
+        // If a[i] > b[i], then Alice is awarded 1 point.
+        // If a[i] < b[i], then Bob is awarded 1 point.
+        // If a[i] = b[i], then neither person receives a point.
+        // diziler
+        int[] a = { 17, 28, 30, }; // Alex'in örnek dizisi
+        int[] b = { 99, 16, 8 }; // Bob'un örnek dizisi
+
+        int counterAlex = 0; // Alex'in sayacı
+        int counterBon = 0; // Bob'un sayacı
+
+        for (int i = 0; i < a.Length; i++)
+        {
+            for (int k = i; k == i; k++)
+            {
+                if (a[i] > b[k])
+                    counterAlex++;
+                else if (a[i] < b[k])
+                    counterBon++;
+                else
+                {
+                    counterAlex++;
+                    counterBon++;
+                }
+            }
+        }
+
+
+
+        int[] newArray = new int[2];
+        newArray[0] = counterAlex;
+        newArray[1] = counterBon;
+
+        foreach (var item in newArray)
+            Console.Write(item + " ");
+
+
 
 
 
