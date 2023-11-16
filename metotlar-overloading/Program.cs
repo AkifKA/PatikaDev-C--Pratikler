@@ -23,9 +23,16 @@ class Program
          Console.WriteLine(toplamSonucu);
 
          //? Metot Aşırı Yükleme (Over Loading)
+         //? Method overloading yani metotların aşırı yüklenmesi metot imzasının değiştirilerek aynı isimdeki metodun birden farklı versiyonun yaratılmasıdır.
          int ifade = 999;
          instance.EkranaYazdir(Convert.ToString(ifade));
          instance.EkranaYazdir(ifade);
+
+         //? Hangisini seçeceğine Metot İmzasına göre karar verir
+         //? Metot İmzası: Metot Adı + Parametre Sayısı + parametre: bunların üçü aynı olduğunda hata verir. Overloading olması için biri farklı olmalı
+
+         instance.EkranaYazdir("Akif","Karaöz");
+
 
     }
 
@@ -45,6 +52,28 @@ class Program
      public void EkranaYazdir(int veri)
        {
         Console.WriteLine(veri);
+       }
+    //!  private void EkranaYazdir(int veri)
+    //    {
+    //     Console.WriteLine(veri);
+    //    }
+       //? Yukarıda Metot İmzası (Metot Adı, Parametre Sayısı, parametre) aynı olduğu için hata verir, overloading olmaz.
+
+       //!  private string EkranaYazdir(int veri)
+    //    {
+    //     Console.WriteLine(veri);
+    //    }
+       //? Yukarıda Metot İmzası (Metot Adı, Parametre Sayısı, parametre) aynı olduğu için hata verir, overloading olmaz.
+
+    //!      public void EkranaYazdir(int veri, int veri2)
+    //    {
+    //     Console.WriteLine(veri);
+    //    }
+       //? Yukarıda parametre sayısı farklı olduğundan overloading yapar. 
+
+       public void EkranaYazdir(string veri1, string veri2)
+       {
+        Console.WriteLine(veri1 + " " + veri2);
        }
 
     }
