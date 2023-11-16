@@ -1,0 +1,14 @@
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\bin\Debug\net7.0\recursive-extension-metotlar.exe
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\bin\Debug\net7.0\recursive-extension-metotlar.deps.json
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\bin\Debug\net7.0\recursive-extension-metotlar.runtimeconfig.json
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\bin\Debug\net7.0\recursive-extension-metotlar.dll
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\bin\Debug\net7.0\recursive-extension-metotlar.pdb
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\recursive-extension-metotlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\recursive-extension-metotlar.AssemblyInfoInputs.cache
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\recursive-extension-metotlar.AssemblyInfo.cs
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\recursive-extension-metotlar.csproj.CoreCompileInputs.cache
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\recursive-extension-metotlar.dll
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\refint\recursive-extension-metotlar.dll
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\recursive-extension-metotlar.pdb
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\recursive-extension-metotlar.genruntimeconfig.cache
+C:\Patikadev\PatikaDev-C--Pratikler\recursive-extension-metotlar\obj\Debug\net7.0\ref\recursive-extension-metotlar.dll
