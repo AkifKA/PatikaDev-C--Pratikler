@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Patikadev\\metotlar\\metotlar.csproj",
+      "projectUniqueName": "C:\\Patikadev\\PatikaDev-C--Pratikler\\metotlar\\metotlar.csproj",
       "projectName": "metotlar",
-      "projectPath": "C:\\Patikadev\\metotlar\\metotlar.csproj",
+      "projectPath": "C:\\Patikadev\\PatikaDev-C--Pratikler\\metotlar\\metotlar.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Patikadev\\metotlar\\obj\\",
+      "outputPath": "C:\\Patikadev\\PatikaDev-C--Pratikler\\metotlar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
