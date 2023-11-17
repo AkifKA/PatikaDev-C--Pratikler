@@ -1,0 +1,14 @@
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\bin\Debug\net7.0\odev-1.exe
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\bin\Debug\net7.0\odev-1.deps.json
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\bin\Debug\net7.0\odev-1.runtimeconfig.json
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\bin\Debug\net7.0\odev-1.dll
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\bin\Debug\net7.0\odev-1.pdb
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\odev-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\odev-1.AssemblyInfoInputs.cache
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\odev-1.AssemblyInfo.cs
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\odev-1.csproj.CoreCompileInputs.cache
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\odev-1.dll
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\refint\odev-1.dll
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\odev-1.pdb
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\odev-1.genruntimeconfig.cache
+C:\Patikadev\PatikaDev-C--Pratikler\odev-1\obj\Debug\net7.0\ref\odev-1.dll
