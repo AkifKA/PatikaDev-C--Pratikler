@@ -9,50 +9,69 @@ class Program
       //  Console.Write("Kaç adet sayıda işlem yapmak istiyorsunuz:");
       //   int n = int.Parse(Console.ReadLine());
           
-      //   List<int> ciftSayilar = new List<int>();
+      //?   // List<int> ciftSayilar = new List<int>();
+      //?   int[] ciftSayilar = new int[n];
 
-      //   for (int i=1; i<=n; i++){
-      //     Console.Write("{0}. Sayıyı giriniz:",i);
+      //   for (int i=0; i<n; i++){
+      //     Console.Write("{0}. Sayıyı giriniz:",i+1);
       //      int sayi = int.Parse(Console.ReadLine());
-      //        if (sayi % 2 ==0)
-      //           ciftSayilar.Add(sayi);
+      //?           // ciftSayilar.Add(sayi);
+      //           ciftSayilar[i] = sayi;
+
       //   }
       //  Console.Write("Girmiş olduğunuz {0} adet sayılardan çift olanları şunlardır:",n);
-      // foreach (var item in ciftSayilar)
-      //     Console.Write(" "+ item + " ");
+      // foreach (int sayi in ciftSayilar)
+      //     if(sayi % 2 ==0)
+      //     Console.Write(" "+ sayi + " ");
 
         //? SORU 2: Bir konsol uygulamasında kullanıcıdan pozitif iki sayı girmesini isteyin (n, m). Sonrasında kullanıcıdan n adet pozitif sayı girmesini isteyin. Kullanıcının girmiş olduğu sayılardan m'e eşit yada tam bölünenleri console'a yazdırın.
 
-      Console.Write("Kaç adet sayı ile işlem yapmak istiyorsunuz:");
-      int n = int.Parse(Console.ReadLine());
-      Console.Write("Hangi sayı ile işlem yapmak istiyorsunuz:");
-      int m = int.Parse(Console.ReadLine());
-      //? List<int> sayilar = new List<int>();
-      int[] sayilar = new int[n];
+      // Console.Write("Kaç adet sayı ile işlem yapmak istiyorsunuz:");
+      // int n = int.Parse(Console.ReadLine());
+      // Console.Write("Hangi sayı ile işlem yapmak istiyorsunuz:");
+      // int m = int.Parse(Console.ReadLine());
+      // //? List<int> sayilar = new List<int>();
+      //? int[] sayilar = new int[n];
 
-      int sayac = 1;
-      while (sayac<n)
-      {
-        Console.Write("{0}. sayı:",sayac);
-       int sayi = int.Parse(Console.ReadLine());
-        if (sayi == m || sayi % m == 0)
+      // int sayac = 0;
+      // while (sayac<n)
+      // {
+      //   Console.Write("{0}.sayı:",sayac+1);
+      //  int sayi = int.Parse(Console.ReadLine());
+      //     //? sayilar.Add(sayi);
+      //     sayilar[sayac] = sayi;
+      //   sayac++; 
+      // }
+     
+      // Console.Write("Girdiğiniz sayıya eşit olan ya da tam bölünenler:");
+      //  foreach (int sayi in sayilar)
+      //  {
+      //    if (sayi == m || sayi % m == 0)
+      //   Console.Write(" " + sayi + " ");
+      //  }
+
+
+
+
+        //? Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.
+        Console.Write("Kelime sayısı giriniz:");
+        int n = int.Parse(Console.ReadLine());
+
+        string[] kelimeler = new string[n];
+        
+        for (int i=0; i<n; i++)
         {
-          //? sayilar.Add(sayi);
-          sayilar[sayac] = sayi;
+          Console.Write("{0}. kelimeyi giriniz:", i+1);
+          string kelime = Console.ReadLine();
+          kelimeler[i] = kelime;
         }
-        sayac++; 
-      }
-      Console.Write("{0}'a eşit olan ya da tam bölünenler:", m);
-       
-       foreach (int item in sayilar)
+
+       Array.Reverse(kelimeler);
+       foreach (string kelime in kelimeler)
        {
-        Console.Write(" " + item + " ");
+        Console.Write(kelime + " ");
        }
 
-
-
-
-        // Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.
         // Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.
     }
 }
