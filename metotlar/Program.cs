@@ -17,7 +17,7 @@ class Program
 
        Console.WriteLine(a+b); 
 
-        //? Foksiyon / Metot çağırma. Metot: Class içindekş fonksiyon
+        //? Foksiyon / Metot çağırma. Metot: Class içindeki fonksiyon
        int sonuc = Topla(a,b);
        Console.WriteLine(sonuc);
 
