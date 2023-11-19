@@ -1,4 +1,6 @@
-﻿namespace odev_1;
+﻿using System.Dynamic;
+
+namespace odev_1;
 
 class Program
 {
@@ -53,25 +55,42 @@ class Program
 
 
 
-        //? Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.
-        Console.Write("Kelime sayısı giriniz:");
-        int n = int.Parse(Console.ReadLine());
+      //   //? SORU 3: Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.
+      //   Console.Write("Kelime sayısı giriniz:");
+      //   int n = int.Parse(Console.ReadLine());
 
-        string[] kelimeler = new string[n];
+      //   string[] kelimeler = new string[n];
         
-        for (int i=0; i<n; i++)
+      //   for (int i=0; i<n; i++)
+      //   {
+      //     Console.Write("{0}. kelimeyi giriniz:", i+1);
+      //     string kelime = Convert.ToString(Console.ReadLine);;
+      //     kelimeler[i] = kelime;
+      //   }
+
+      //  Array.Reverse(kelimeler);
+      //  foreach (string kelime in kelimeler)
+      //  {
+      //   Console.Write(kelime + " ");
+      //  }
+
+        //? SORU 4: Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.
+        Console.Write("Bir cümle yazınız:");
+        string cumle = Convert.ToString(Console.ReadLine());
+      
+        Console.WriteLine("Yazdığınız '{0}' cümlesindeki;",cumle);
+        RemoveWhiteSpaces(cumle);
+        Console.WriteLine("Harf Sayısı: {0}",cumle.Length);
+        
+        string[] words = cumle.Split(" ");
+        Console.WriteLine("Kelime Sayısı: {0}",words.Length);
+    }
+ public static string RemoveWhiteSpaces(string param)
         {
-          Console.Write("{0}. kelimeyi giriniz:", i+1);
-          string kelime = Console.ReadLine();
-          kelimeler[i] = kelime;
+                string[] dizi = param.Split(" ");
+                return string.Join("", dizi);
         }
 
-       Array.Reverse(kelimeler);
-       foreach (string kelime in kelimeler)
-       {
-        Console.Write(kelime + " ");
-       }
-
-        // Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.
-    }
+   
+  
 }
